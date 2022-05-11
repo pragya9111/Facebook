@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+
+<body>
+  <div id="main">
+    <div id="nav"><h1>Welcome to <span> facebook.com</span> </h1></div>
+    <div id="home">
+      <div id="left">
+        <h2>Create New Account</h2>
+        <form action="/register" method="post" >
+          <input type="text" name="name" placeholder="Enter name"><br><br>
+          <input type="text" name="username" placeholder="Enter username"><br><br>
+          <input type="text" name="email" placeholder="Enter email"><br><br>
+          <input type="password" name="password"  placeholder="Enter passpword"><br><br>
+          <input type="submit"  value="Register" id="submit" >
+        </form>
+          
+      </div>
+      <hr style="width: 2px; height: 70%;border:none;color:rgb(138, 155, 185); background-color: rgb(110, 130, 169); margin-top: 8vmax;">
+      <div id="rigth">
+        <h2>Login yourself</h2>
+        <form action="/login" method="post">
+          <input type="text" name="username" placeholder="Enter username"><br><br><br>
+          <input type="password" name="password" placeholder="Enter passpword"><br><br><br>
+          <input type="submit" value="Log In" id="submit" >
+        </form>
+        
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
